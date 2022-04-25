@@ -27,6 +27,15 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
+    ArrayList<Integer> numList = new ArrayList<Integer>();
+    System.out.print("Enter the Number of integers that will be entered: ");
+    int num = in.nextInt();
+    for(int c = 0; c < num; c++)
+    {
+      System.out.print("");
+      int numadd = in.nextInt();
+      numList.add(numadd);
+    }
     
   }
 }
